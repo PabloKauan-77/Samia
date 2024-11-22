@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja de Roupas</title>
+  <link rel="stylesheet" href="estilo/styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.jpeg" alt="Logo da Loja">
+    </div>
+    <h1></h1>
+  </header>
+
+  <main>
+    <!-- Seção 1 -->
+    <section>
+      <h2>Camisa</h2>
+      <div class="scroll-gallery">
+        <img src="Camisas/WhatsApp Image 2024-11-22 at 13.27.57 (4).jpeg" alt="Roupa 1">
+        <img src="Camisas/WhatsApp Image 2024-11-22 at 13.27.58 (1).jpeg" alt="Roupa 2">
+        <img src="Camisas/WhatsApp Image 2024-11-22 at 13.27.58 (3).jpeg" alt="Roupa 3">
+        <img src="roupa4.jpg" alt="Roupa 4">
+      </div>
+    </section>
+
+    <!-- Seção 2 -->
+    <section>
+      <h2>Seção 2</h2>
+      <div class="scroll-gallery">
+        <img src="roupa5.jpg" alt="Roupa 5">
+        <img src="roupa6.jpg" alt="Roupa 6">
+        <img src="roupa7.jpg" alt="Roupa 7">
+        <img src="roupa8.jpg" alt="Roupa 8">
+      </div>
+    </section>
+
+    <!-- Continue adicionando seções até a 10 -->
+  </main>
+
+  <footer>
+    <p>Contato: (XX) XXXXX-XXXX</p>
+    <p>Email: loja@email.com</p>
+  </footer>
+
+  <script>
+    // Função para rolar à esquerda
+function scrollLeft(galleryId) {
+  const gallery = document.getElementById(galleryId);
+  gallery.scrollLeft -= 300; // Altere o valor para ajustar a distância do scroll
+}
+
+// Função para rolar à direita
+function scrollRight(galleryId) {
+  const gallery = document.getElementById(galleryId);
+  gallery.scrollLeft += 300; // Altere o valor para ajustar a distância do scroll
+}
+  </script>
+</body>
+</html>
